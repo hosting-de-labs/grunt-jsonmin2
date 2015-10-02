@@ -1,0 +1,33 @@
+{
+  "name": "grunt-jsonmin2",
+  "version": "1.0.0",
+  "description": "Minify your JSON files to save some bandwidth.",
+  "keywords": [
+    "grunt",
+    "json",
+    "minify"
+  ],
+  "bugs": {
+    "url": "https://github.com/hosting-de-labs/grunt-jsonmin2/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "hosting.de GmbH",
+    "url": "https://www.hosting.de/"
+  },
+  "files": [
+    "tasks"
+  ],
+  "main": "tasks/jsonmin.js",
+  "repository": "hosting-de-labs/grunt-jsonmin2",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "maxmin": "^1.1.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "engines": {
+    "node": ">= 0.12.0"
+  }
+}
